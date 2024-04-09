@@ -5,8 +5,12 @@
 .card_image {
 }
 .card_title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .card_title__name {
 }
+
 .card__like {
 }

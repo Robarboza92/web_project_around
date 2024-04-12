@@ -1,6 +1,16 @@
 .header {
+  max-width: 880px;
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+  margin-top: 45px;
 }
 .header__text {
+  max-width: 173px;
+  margin-bottom: 41px;
 }
 .header__line {
+  max-width: 880px;
 }

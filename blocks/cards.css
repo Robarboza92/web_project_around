@@ -1,16 +1,62 @@
 .cards {
+  margin-top: 50px;
+  max-width: 880px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  flex-wrap: wrap;
+  column-gap: 17px;
+  row-gap: 20px;
+  border-radius: 10px;
+  background-color: black;
+  margin-bottom: 68px;
 }
 .card {
+  max-width: 282px;
 }
 .card_image {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 .card_title {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: white;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  align-items: center;
+  max-height: 79px;
+  border-radius: 0 0 10px 10px;
 }
 .card_title__name {
+  display: flex;
+  max-width: 100%;
+  font-family: intervariable, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29.05px;
+  text-align: center;
+  color: black;
+  align-items: center;
+  margin-left: 21px;
 }
 
 .card__like {
+  width: 21px;
+  height: 19px;
+  position: relative;
+  margin-right: 30px;
+  background-color: white;
+  background-image: url(../images/Group.svg);
+  border: none;
+}
+.card__like:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.card__like:active {
+  background-image: url(../images/Union.png);
 }

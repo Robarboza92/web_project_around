@@ -1,2 +1,6 @@
 .main {
+  display: flex;
+  max-width: 880px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }

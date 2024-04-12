@@ -1,4 +1,16 @@
 .footer {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 880px;
+  position: relative;
+  right: 340px;
+  margin-bottom: 60px;
 }
 .footer__text {
+  font-family: intervariable, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.76px;
+  text-align: center;
+  color: #545454;
 }

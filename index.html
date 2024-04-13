@@ -23,62 +23,66 @@
             <img class="profile__avatar" src="./images/Avatar.png" alt="Foto_avatar">
             <div class="profile__info">
             <h1 class="profile__info__name">RODRIGO BARBOZA</h1>
-            <button class="profile__info__edit-button"></button>
-            <h3 class="profile__info__class">Arquiteto e Urbanista</h3>
+            <button class="profile__info__edit-button" type="submit"></button>
+            <h3 class="profile__info__job">Arquiteto e Urbanista</h3>
             </div>
-            <button class="addbutton">
-              
+            <button class="addbutton" type="submit">
             </button>
+            
         </div>
-        <section class="cards">
-          <div class="card">
+        <div class="popup">
+          <button type="submit" class="popup__close-button">X</button>
+          <h3 class="popup__title">Editar perfil</h3>
+          <form class="popup__form" name="register">
+            <input class="popup__name-input" type="text" name="name" placeholder="Nome">
+            <input class="popup__job-input" type="text" name="job" placeholder="Sua descrição">
+            <button type="submit" class="popup__save-button">Salvar</button>
+          </form>
+        </div>
+        <ul class="cards">
+          <li class="card">
             <img class="card_image" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="teste">
             <div class="card_title">
             <h2 class="card_title__name">   teste para      </h2>
             <button class="card__like" >  </button> 
-            </div>
-          </div>
-            <div class="card">
-              <img class="card_image" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="teste">
-              <div class="card_title">
-              <h2 class="card_title__name">   teste para      </h2>
-              <button class="card__like" >  </button> 
-              </div>
-            </div>
-            <div class="card">
-              <img class="card_image" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="teste">
-              <div class="card_title">
-              <h2 class="card_title__name">   teste para      </h2>
-              <button class="card__like" >  </button> 
-              </div>
-            </div>
-            <div class="card">
-              <img class="card_image" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="teste">
-              <div class="card_title">
-              <h2 class="card_title__name">   teste para      </h2>
-              <button class="card__like" >  </button> 
-              </div>
-            </div>
-            <div class="card">
-              <img class="card_image" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="teste">
-              <div class="card_title">
-              <h2 class="card_title__name">   teste para      </h2>
-              <button class="card__like" >  </button> 
-              </div>
-            </div>
-            <div class="card">
-              <img class="card_image" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="teste">
-              <div class="card_title">
-              <h2 class="card_title__name">   teste para      </h2>
-              <button class="card__like" >  </button> 
-              </div>
-            </div>
-            </div>
+            </li>
+          </li>
+          <li class="card">
+            <img class="card_image" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="teste">
+            <div class="card_title">
+            <h2 class="card_title__name">   teste para      </h2>
+            <button class="card__like" type="button">  </button> 
+          </li>
+          <li class="card">
+            <img class="card_image" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="teste">
+            <div class="card_title">
+            <h2 class="card_title__name">   teste para      </h2>
+            <button class="card__like" type="button">  </button> 
+          </li>
+          <li class="card">
+            <img class="card_image" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="teste">
+            <div class="card_title">
+            <h2 class="card_title__name">   teste para      </h2>
+            <button class="card__like" type="button">  </button> 
+          </li>
+          <li class="card">
+            <img class="card_image" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="teste">
+            <div class="card_title">
+            <h2 class="card_title__name">   teste para      </h2>
+            <button class="card__like" type="button">  </button> 
+          </li>
+          <li class="card">
+            <img class="card_image" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="teste">
+            <div class="card_title">
+            <h2 class="card_title__name">   teste para      </h2>
+            <button class="card__like" type="button">  </button> 
+          </li>           
         </section>
-        <script src="./blocks/script.js"></script>
+                <script src="./blocks/script.js"></script>
     </main>
     <footer class="footer">
         <p class="footer__text">© 2024 Around The U.S.</p>
     </footer>
   </body>
 </html>
+

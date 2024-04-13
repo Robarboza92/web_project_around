@@ -1,0 +1,19 @@
+.popup {
+  display: none;
+}
+
+.popup_change_display {
+  display: flex;
+}
+.popup__close-button {
+}
+.popup__title {
+}
+.popup__form {
+}
+.popup__name-input {
+}
+.popup__job-input {
+}
+.popup__save-button {
+}

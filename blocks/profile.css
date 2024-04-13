@@ -22,7 +22,7 @@
 }
 
 .profile__info__name {
-  display: flex;
+  display: block;
   font-family: intervariable, sans-serif, "Times New Roman", Times, serif;
   font-weight: 500;
   font-size: 42px;
@@ -32,12 +32,29 @@
   flex-direction: row;
   color: white;
   flex-wrap: wrap;
-  max-width: 100%;
+  max-width: 400px;
   max-height: 39px;
   margin-bottom: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .profile__info__job {
+  display: block;
+  font-family: intervariable, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.78px;
+  text-align: start;
   margin: 0;
+  flex-direction: row;
+  color: white;
+  flex-wrap: wrap;
+  max-width: 400px;
+  max-height: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .profile__info__edit-button {
   margin-left: 18px;

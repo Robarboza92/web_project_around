@@ -38,21 +38,3 @@ function SaveProfileFormSubmit(evento) {
 }
 
 saveButton.addEventListener("click", SaveProfileFormSubmit);
-// Fazendo isso, podemos definir nossa própria forma de enviar o formulário.
-// Explicaremos em mais detalhes posteriormente.
-
-// Vamos encontrar os campos de formulário do DOM
-/*const nameInput = // Use querySelector()
-    let jobInput = // Use querySelector()
-
-    // Pegue os valores de cada campo do valor da propriedade correspondente
-
-    // Selecione os elementos aos quais os valores dos campos serão inseridos
-
-    // Insira novos valores usando a
-    // propriedade textContent
-}
-
-// Conecte o handler ao formulário:
-// ele vai observar o evento de submit
-formElement.addEventListener('submit', handleProfileFormSubmit);*/

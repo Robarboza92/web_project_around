@@ -8,7 +8,7 @@
 .profile__avatar {
   max-width: 120px;
   max-height: 120px;
-  border-radius: 30px;
+  border-radius: 100px;
 }
 .profile__info {
   display: flex;
@@ -21,7 +21,7 @@
   max-height: 77px;
 }
 
-.profile__info__name {
+.profile__info-name {
   display: block;
   font-family: intervariable, sans-serif, "Times New Roman", Times, serif;
   font-weight: 500;
@@ -39,7 +39,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.profile__info__job {
+.profile__info-job {
   display: block;
   font-family: intervariable, sans-serif, "Times New Roman", Times, serif;
   font-weight: 400;
@@ -56,7 +56,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.profile__info__edit-button {
+.profile__info-editbutton {
   margin-left: 18px;
   width: 24px;
   height: 24px;

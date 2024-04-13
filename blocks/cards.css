@@ -65,3 +65,34 @@
 .card__like:active {
   background-image: url(../images/Union.png);
 }
+
+@media screen and (max-width: 800px) {
+  .cards {
+    margin-top: 50px;
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    flex-wrap: wrap;
+    column-gap: 17px;
+    row-gap: 20px;
+    background-color: black;
+    margin-bottom: 68px;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cards {
+    margin-top: 50px;
+    max-width: 282px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    flex-wrap: wrap;
+    column-gap: 17px;
+    row-gap: 20px;
+    background-color: black;
+    margin-bottom: 68px;
+    padding: 0;
+  }
+}

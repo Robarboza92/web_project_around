@@ -18,7 +18,6 @@
   background-color: white;
   flex-direction: column;
   width: 430px;
-  margin-top: 40px;
   border-radius: 10px;
 }
 .popup__title {
@@ -36,7 +35,7 @@
   font-size: 14px;
   line-height: 16.94px;
   padding-bottom: 13.34px;
-  padding-bottom: 13.34px;
+
   border-top: hidden;
   border-left: hidden;
   border-right: hidden;
@@ -82,4 +81,46 @@
 .popup__close-button:hover {
   opacity: 60%;
   cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .popup {
+    display: none;
+    max-width: 750px;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 320px) {
+  .popup {
+    display: none;
+    max-width: 282px;
+    z-index: 1;
+  }
+  .popup_change_display {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    max-width: 100%;
+    position: fixed;
+    top: 123px;
+  }
+  .popup__form {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 282px;
+    border-radius: 10px;
+  }
+  .popup__name-input {
+    margin: 76px 22px 0px 22px;
+    padding-bottom: 9px;
+  }
+  .popup__job-input {
+    margin: 30px 22px 0px 22px;
+    padding-bottom: 9px;
+  }
+  .popup__save-button {
+    margin: 46px 22px 25px 22px;
+    padding-bottom: 96px 14px;
+  }
 }

@@ -11,8 +11,9 @@
   border-radius: 100px;
 }
 .profile__info {
-  display: flex;
-  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  grid-template-columns: 400px 30px;
+  column-gap: 18px;
   max-width: 500px;
   color: white;
   flex-wrap: wrap;
@@ -23,11 +24,11 @@
 
 .profile__info-name {
   display: block;
-  font-family: intervariable, sans-serif, "Times New Roman", Times, serif;
+  font-family: inter, sans-serif, "Times New Roman", Times, serif;
   font-weight: 500;
   font-size: 42px;
   line-height: 48px;
-  text-align: center;
+  text-align: start;
   margin: 0;
   flex-direction: row;
   color: white;
@@ -41,7 +42,7 @@
 }
 .profile__info-job {
   display: block;
-  font-family: intervariable, sans-serif, "Times New Roman", Times, serif;
+  font-family: inter, sans-serif, "Times New Roman", Times, serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21.78px;
@@ -57,7 +58,6 @@
   text-overflow: ellipsis;
 }
 .profile__info-editbutton {
-  margin-left: 18px;
   width: 24px;
   height: 24px;
   background-color: black;
@@ -100,13 +100,19 @@
     margin: auto;
   }
   .profile__info {
-    margin: 0 0 0 30.75px;
+    display: grid;
     max-width: 400px;
+    grid-template-columns: 350px 30px;
   }
   .profile__info-name {
-    max-width: 300px;
+    max-width: 340px;
     font-size: 35px;
+    text-align: start;
   }
+  .profile__info-editbutton {
+    margin: 0;
+  }
+
   .addbutton {
     width: 150px;
     height: 50px;
@@ -148,7 +154,7 @@
   }
   .profile__info-job {
     display: block;
-    font-family: intervariable, sans-serif, "Times New Roman", Times, serif;
+    font-family: inter, sans-serif, "Times New Roman", Times, serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 16.94px;

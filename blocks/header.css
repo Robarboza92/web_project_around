@@ -31,11 +31,11 @@
 }
 @media screen and (max-width: 400px) {
   .header {
-    max-width: 300px;
+    max-width: 282px;
     height: 56px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     margin-bottom: 38.25px;
     margin-top: 28px;
   }
@@ -44,6 +44,11 @@
     margin-bottom: 32px;
   }
   .header__line {
-    max-width: 300px;
+    display: flex;
+    max-width: 282px;
+    height: 1px;
+    color: white;
+    justify-content: center;
+    position: relative;
   }
 }

@@ -83,7 +83,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 880px) {
   .popup {
     max-width: 750px;
     z-index: 1;
@@ -116,7 +116,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 564px) {
   .popup {
     max-width: 282px;
     z-index: 1;

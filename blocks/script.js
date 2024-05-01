@@ -40,41 +40,19 @@ function SaveProfileFormSubmit(evento) {
 saveButton.addEventListener("click", SaveProfileFormSubmit);
 
 const cardpopupForm = document.querySelector(".card__popup");
-const addButton = document.querySelector(".card__addbuttonn");
-
-
+const addButton = document.querySelector(".card__addbutton");
+const cardcloseButton = document.querySelector(".card__popup__close-button");
 const titleInput = document.querySelector(".popup__title-input");
 const linkInput = document.querySelector(".popup__link-input");
 
-// const profileName = document.querySelector(".profile__info-name");
-// const profileJob = document.querySelector(".profile__info-job");
-
-
 function cardchangeDisplaytoFlex() {
-  popupForm.classList.add("card__popup_change_display");
+  cardpopupForm.classList.add("card__popup_change_display");
   titleInput.value = profiletitle.textContent;
   linkInput.value = profilelink.textContent;
 }
 function cardchangeDisplaytoNone() {
-  popupForm.classList.remove("card__popup_change_display");
+  cardpopupForm.classList.remove("card__popup_change_display");
 }
 
 addButton.addEventListener("click", cardchangeDisplaytoFlex);
-closeButton.addEventListener("click", cardchangeDisplaytoNone);
-
-// function SaveProfileFormSubmit(evento) {
-//   evento.preventDefault();
-//   if (nameInput.value == "" && jobInput.value != "") {
-//     alert("Preencha seu nome!");
-//     return;
-//   }
-//   if (jobInput.value == "") {
-//     alert("Preencha sua profissão!");
-//     return;
-//   }
-//   profileName.textContent = nameInput.value;
-//   profileJob.textContent = jobInput.value;
-//   changeDisplaytoNone();
-// }
-
-// saveButton.addEventListener("click", SaveProfileFormSubmit);
+cardcloseButton.addEventListener("click", cardchangeDisplaytoNone);

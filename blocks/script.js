@@ -56,3 +56,55 @@ function cardchangeDisplaytoNone() {
 
 addButton.addEventListener("click", cardchangeDisplaytoFlex);
 cardcloseButton.addEventListener("click", cardchangeDisplaytoNone);
+
+const cards = document.querySelector(".cards");
+const initialCards = [
+  {
+    name: "Museo de la Memoria y los Derechos Humanos MMDH",
+    link: "./images/Museo_de_la_Memoria_y_los_Derechos_Humanos_MMDH.jpg",
+  },
+  {
+    name: "Embalse el Yeso - Chile",
+    link: "./images/Embalse_el_Yeso_Chile.jpg",
+  },
+  {
+    name: "Vina del mar - Chile",
+    link: "./images/Vina_del_mar_Chile.jpg",
+  },
+  {
+    name: "Parque de Farellones - Chile",
+    link: "./images/Parque_de_Farellones_Chile.jpg",
+  },
+  {
+    name: "Museu Nacional de História Natural do Chile",
+    link: "./images/Museu_Nacional_de_História_Natural_do_Chile.jpg",
+  },
+  {
+    name: "Valle Nevado Hotel",
+    link: "./images/Valle_Nevado_Hotel_Chile.jpg",
+  },
+];
+const cardItem = document
+  .querySelector("#template")
+  .content.querySelector(".table__item");
+
+function addCard(card) {
+  const cardItem = document
+    .querySelector("#template")
+    .content.querySelector(".table__item")
+    .cloneNode(true);
+  cardItem.querySelector("#title").textContent = card.name;
+  cardItem.querySelector(".card__image").setAttribute("src", card.link);
+  cardItem.querySelector(".card__image").setAttribute("alt", card.name);
+  return cardItem;
+}
+
+for (const card of initialCards) {
+  cards.prepend(addCard(card));
+}
+//   cards.append(card);
+// }
+
+// for (const novoCard of cards) {
+//   addCard(novoCard);
+// }

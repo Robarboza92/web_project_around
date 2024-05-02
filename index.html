@@ -39,120 +39,58 @@
         </div>
         <button class="card__addbutton" type="submit"></button>
       </div>
-      <div class="popup">
-        <button type="submit" class="popup__close-button">X</button>
-        <form class="popup__form" name="register">
-          <h3 class="popup__title">Editar perfil</h3>
-          <input
-            class="popup__name-input"
-            type="text"
-            name="name"
-            placeholder="Nome"
-          />
-          <input
-            class="popup__job-input"
-            type="text"
-            name="job"
-            placeholder="Sua descrição"
-          />
-          <button type="submit" class="popup__save-button">Salvar</button>
-        </form>
-      </div>
-      <div class="card__popup">
-        <button type="submit" class="card__popup__close-button">X</button>
-        <form class="popup__form" name="Novo_local">
-          <h3 class="popup__title">Novo local</h3>
-          <input
-            class="popup__title-input"
-            type="text"
-            name="name"
-            placeholder="Titulo"
-          />
-          <input
-            class="popup__link-input"
-            type="text"
-            name="link"
-            placeholder="Link da imagem"
-          />
-          <button type="submit" class="popup__create-button">Criar</button>
-        </form>
-      </div>
-      <ul class="cards">
-        <li class="card">
-          <img
-            class="card__image"
-            src="./images/Museo_de_la_Memoria_y_los_Derechos_Humanos_MMDH.jpg"
-            alt="Museo de la Memoria y los Derechos Humanos MMDH"
-          />
-          <div class="card__title">
-            <h2 class="card__title-name">
-              Museo de la Memoria y los Derechos Humanos MMDH
-            </h2>
-            <button class="card__like"></button>
-          </div>
-        </li>
-        <li class="card">
-          <img
-            class="card__image"
-            src="./images/Embalse_el_Yeso_Chile.jpg"
-            alt="teste"
-          />
-          <div class="card__title">
-            <h2 class="card__title-name">Embalse el Yeso - Chile</h2>
-            <button class="card__like"></button>
-          </div>
-        </li>
-        <li class="card">
-          <img
-            class="card__image"
-            src="./images/Vina_del_mar_Chile.jpg"
-            alt="teste"
-          />
-          <div class="card__title">
-            <h2 class="card__title-name">Vina del mar - Chile</h2>
-            <button class="card__like"></button>
-          </div>
-        </li>
-        <li class="card">
-          <img
-            class="card__image"
-            src="./images/Parque_de_Farellones_Chile.jpg"
-            alt="teste"
-          />
-          <div class="card__title">
-            <h2 class="card__title-name">Parque de Farellones - Chile</h2>
-            <button class="card__like"></button>
-          </div>
-        </li>
-        <li class="card">
-          <img
-            class="card__image"
-            src="./images/Museu_Nacional_de_História_Natural_do_Chile.jpg"
-            alt="teste"
-          />
-          <div class="card__title">
-            <h2 class="card__title-name">
-              Museu Nacional de História Natural do Chile
-            </h2>
-            <button class="card__like"></button>
-          </div>
-        </li>
-        <li class="card">
-          <img
-            class="card__image"
-            src="./images/Valle_Nevado_Hotel_Chile.jpg"
-            alt="teste"
-          />
-          <div class="card__title">
-            <h2 class="card__title-name">Valle Nevado Hotel</h2>
-            <button class="card__like"></button>
-          </div>
-        </li>
-      </ul>
+      <ul class="cards"></ul>
     </main>
     <footer class="footer">
       <p class="footer__text">© 2024 Around The U.S.</p>
     </footer>
+    <div class="popup">
+      <button type="submit" class="popup__close-button">X</button>
+      <form class="popup__form" name="register">
+        <h3 class="popup__title">Editar perfil</h3>
+        <input
+          class="popup__name-input"
+          type="text"
+          name="name"
+          placeholder="Nome"
+        />
+        <input
+          class="popup__job-input"
+          type="text"
+          name="job"
+          placeholder="Sua descrição"
+        />
+        <button type="submit" class="popup__save-button">Salvar</button>
+      </form>
+    </div>
+    <div class="card__popup">
+      <button type="submit" class="card__popup__close-button">X</button>
+      <form class="popup__form" name="Novo_local">
+        <h3 class="popup__title">Novo local</h3>
+        <input
+          class="popup__title-input"
+          type="text"
+          name="name"
+          placeholder="Titulo"
+        />
+        <input
+          class="popup__link-input"
+          type="text"
+          name="link"
+          placeholder="Link da imagem"
+        />
+        <button type="submit" class="popup__create-button">Criar</button>
+      </form>
+      <template id="template">
+        <li class="table__item">
+          <img class="card__image" src="" alt="" />
+          <!-- <div id="card__title" class="card__title"> -->
+          <h2 id="title" class="title"></h2>
+          <button class="card__like"></button>
+          <!-- </div> -->
+        </li>
+      </template>
+    </div>
     <script src="./blocks/script.js"></script>
   </body>
 </html>

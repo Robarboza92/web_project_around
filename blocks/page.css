@@ -1,0 +1,27 @@
+.body {
+  background-color: black;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.page {
+  max-width: 882px;
+  margin: auto;
+}
+
+.content {
+  max-width: 882px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .page {
+       max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+       max-width: 282px;
+  }
+}

@@ -1,0 +1,127 @@
+.elements {
+  margin-top: 50px;
+  max-width: 880px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 17px;
+  row-gap: 20px;
+  background-color: black;
+  margin-bottom: 68px;
+  padding: 0;
+}
+
+.elements__card {
+  max-width: 282px;
+  max-height: 361px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.elements__card__image {
+  width: 100%;
+  height: 282px;
+  border-radius: 10px 10px 0 0;
+}
+.elements__card__title {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: white;
+  max-width: 100%;
+  align-items: center;
+  max-height: 79px;
+  border-radius: 0 0 10px 10px;
+  padding: 25px 15px 31px 21px;
+}
+.card__title-name {
+  display: block;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: intervariable, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: start;
+  color: black;
+  align-items: center;
+  margin: 0;
+}
+
+.card__trash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  right: 15px;
+  top: 18px;
+  width: 18px;
+  height: 19.3px;
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+}
+
+.trash {
+  width: 18px;
+}
+
+.trash-bottom {
+  width: 15.44px;
+}
+
+.card__like {
+  width: 21px;
+  height: 19px;
+  margin-right: 3px;
+  margin-top: 5px;
+  background-color: white;
+  background-image: url(../images/like.svg);
+  border: none;
+}
+.card__like:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.card__like:active {
+  background-image: url(../images/Union.png);
+}
+
+
+@media screen and (max-width: 900px) {
+  .elements {
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    flex-wrap: wrap;
+    column-gap: 17px;
+    row-gap: 20px;
+    background-color: black;
+    margin: 50px auto 68px auto;
+    padding: 0;
+    place-items: center;
+    
+    
+  }
+}
+@media screen and (max-width: 620px) {
+  .elements {
+    margin-top: 36px;
+    max-width: 282px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    flex-wrap: wrap;
+    column-gap: 17px;
+    row-gap: 20px;
+    background-color: black;
+    margin-bottom: 68px;
+    padding: 0;
+  }
+}

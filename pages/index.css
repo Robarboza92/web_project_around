@@ -1,86 +1,16 @@
-.body {
-  background-color: black;
-  max-width: 1280px;
-}
+@import url("../vendor/normalize.css"); 
+@import url("../vendor/fonts.css"); 
+@import url("../blocks/page.css");
+@import url("../blocks/header.css");
+@import url("../blocks/profile.css");
+@import url("../blocks/elements.css");
+@import url("../blocks/footer.css");
 
-.page {
-  max-width: 880px;
-  margin:auto;
-}
 
-.header {
-  margin-top: 45px;
-}
 
-.header__around{
-  max-width: 173px;
-  }
 
-.header__line{
-  margin-top: 41px;
-}
 
-.content{
 
-}
 
-.profile{
-  margin-top: 40px;
-  display: flex;
 
-}
 
-.profile__elipse{}
-
-.profile__elipse-avatar{}
-
-.profile__info{
-   color: #fff;
-}
-
-.profile__info__name{}
-
-.profile__info__profissão{}
-
-.profile__info_edit{}
-
-.profile__info_edit-button{}
-
-.profile__button{}
-
-.profile__button__add{}
-
-.profile__button__add-plus{}
-
-.elements{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 17px;
-  row-gap: 21px;
-}
-
-.elements__card{}
-
-.elements__card__content{
-  max-width: 282px;
-}
-
-.card__image{
-  max-width: 282px;
-  margin: 0;
-}
-
-.card__image-file{}
-
-.elements__card__title{
-  background-color: #fff;
-  margin: 0;
-}
-
-.card__title{
-  margin: 0;
-}
-
-.card__like{}
-
-.footer{}

@@ -23,17 +23,35 @@
           </div>
           <div class="profile__info">
             <h1 class="profile__info__name">Jacques Cousteau</h1>
-            <a class="profile__info_edit" href=""
+            <button class="profile__info_edit" type="submit"
             ><img
               class="profile__info_edit-button"
               src="./images/edit_button.svg"
-          /></a>
+          /></button>
             <h2 class="profile__info__profissão">Explorador</h2>
           </div>          
-          <a class="profile__button" href=""
+          <button class="profile__button" type="submit"
               ><img class="profile__button__add" src="./images/plus.svg"
-          /></a>
-          
+          /></button>
+          <div class="popup">
+        <form class="popup__form" name="register">
+          <h3 class="popup__title">Editar perfil</h3>
+          <input
+            class="popup__name-input"
+            type="text"
+            name="name"
+            placeholder="Nome"
+          />
+          <input
+            class="popup__job-input"
+            type="text"
+            name="job"
+            placeholder="Sua descrição"
+          />
+          <button type="submit" class="popup__save-button">Salvar</button>
+        </form>
+        <button type="submit" class="popup__close-button">X</button>
+      </div>
         </section>
         <ul class="elements">
           <li class="elements__card">
@@ -42,7 +60,7 @@
             src="./images/vale_de_yosemite.jpg"
             alt="Vale de Yosemite"
           />
-          <button class="card__trash">
+          <button class="card__trash" type="submit">
             <img class="trash" src="./images/trashtop.svg">
             <img class="trash-bottom" src="./images/trashbottom.svg">
           </button>
@@ -50,7 +68,7 @@
             <h2 class="card__title-name">
               Vale de Yosemite
             </h2>
-            <button class="card__like"></button>
+            <button class="card__like" type="submit"></button>
           </div>
         </li>
         <li class="elements__card">
@@ -59,7 +77,7 @@
             src="./images/lago_louise.jpg"
             alt="Lago Louise"
           />
-          <button class="card__trash">
+          <button class="card__trash" type="submit">
             <img class="trash" src="./images/trashtop.svg">
             <img class="trash-bottom" src="./images/trashbottom.svg">
           </button>
@@ -67,7 +85,7 @@
             <h2 class="card__title-name">
               Lago Louise
             </h2>
-            <button class="card__like"></button>
+            <button class="card__like" type="submit"></button>
           </div>
         </li>
         <li class="elements__card">
@@ -76,7 +94,7 @@
             src="./images/montanhas_care.jpg"
             alt="Montanhas Care"
           />
-          <button class="card__trash">
+          <button class="card__trash" type="submit">
             <img class="trash" src="./images/trashtop.svg">
             <img class="trash-bottom" src="./images/trashbottom.svg">
           </button>
@@ -84,7 +102,7 @@
             <h2 class="card__title-name">
               Montanhas Care...
             </h2>
-            <button class="card__like"></button>
+     <button class="card__like" type="submit"></button>
           </div>
         </li>
          <li class="elements__card">
@@ -93,7 +111,7 @@
             src="./images/latemar.jpg"
             alt="Latemar"
           />
-          <button class="card__trash">
+          <button class="card__trash" type="submit">
             <img class="trash" src="./images/trashtop.svg">
             <img class="trash-bottom" src="./images/trashbottom.svg">
           </button>
@@ -101,7 +119,7 @@
             <h2 class="card__title-name">
               Latemar
             </h2>
-            <button class="card__like"></button>
+              <button class="card__like" type="submit"></button>
           </div>
         </li>
         <li class="elements__card">
@@ -110,7 +128,7 @@
             src="./images/Parque_nacional.jpg"
             alt="Parque Nacional"
           />
-          <button class="card__trash">
+          <button class="card__trash" type="submit">
             <img class="trash" src="./images/trashtop.svg">
             <img class="trash-bottom" src="./images/trashbottom.svg">
           </button>
@@ -118,7 +136,7 @@
             <h2 class="card__title-name">
               Parque Nacional...
             </h2>
-            <button class="card__like"></button>
+              <button class="card__like" type="submit"></button>
           </div>
         </li>
          <li class="elements__card">
@@ -127,7 +145,7 @@
             src="./images/lago_di_braies.jpg"
             alt="Lago di Braies"
           />
-          <button class="card__trash">
+          <button class="card__trash" type="submit">
             <img class="trash" src="./images/trashtop.svg">
             <img class="trash-bottom" src="./images/trashbottom.svg">
           </button>
@@ -135,11 +153,12 @@
             <h2 class="card__title-name">
               Lago di Braies
             </h2>
-            <button class="card__like"></button>
+              <button class="card__like" type="submit"></button>
           </div>
         </li>
       </main>
       <footer class="footer">© 2025 Around the U.S.</footer>
     </div>
+    <script src="./blocks/script.js"></script>
   </body>
 </html>

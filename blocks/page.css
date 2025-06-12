@@ -17,10 +17,11 @@
 @media screen and (max-width: 900px) {
   .page {
        max-width: 800px;
+  
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
   .page {
        max-width: 282px;
   }

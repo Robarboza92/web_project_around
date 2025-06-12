@@ -1,0 +1,126 @@
+.popup {
+  display: none;
+  max-width: 1280px;
+  z-index: 1;
+}
+
+.popup_change_display {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  max-width: 100%;
+  position: fixed;
+  top: 195px;
+}
+
+.popup__form {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  width: 430px;
+  border-radius: 10px;
+}
+.popup__title {
+  margin: 34px 64px 0px 36px;
+  font-family: inter, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29.05px;
+}
+
+.popup__name-input {
+  margin: 54px 36px 0px 36px;
+  font-family: inter, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+  padding-bottom: 13.34px;
+
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+}
+.popup__job-input {
+  margin: 29.74px 36px 0px 36px;
+  font-family: inter, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+  padding-bottom: 13.34px;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+}
+.popup__save-button {
+  margin: 48px 36px 36.51px 36px;
+  font-family: intervariable, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.78px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border: 0;
+  padding: 13.66px 125px 18.49px 124px;
+  text-align: center;
+}
+.popup__save-button:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+
+.popup__close-button {
+  align-self: flex-start;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  opacity: 100%;
+}
+.popup__close-button:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .popup {
+    display: none;
+    max-width: 750px;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 320px) {
+  .popup {
+    display: none;
+    max-width: 282px;
+    z-index: 1;
+  }
+  .popup_change_display {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    max-width: 100%;
+    position: fixed;
+    top: 123px;
+  }
+  .popup__form {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 282px;
+    border-radius: 10px;
+  }
+  .popup__name-input {
+    margin: 76px 22px 0px 22px;
+    padding-bottom: 9px;
+  }
+  .popup__job-input {
+    margin: 30px 22px 0px 22px;
+    padding-bottom: 9px;
+  }
+  .popup__save-button {
+    margin: 46px 22px 25px 22px;
+    padding-bottom: 96px 14px;
+  }
+}

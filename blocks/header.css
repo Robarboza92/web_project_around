@@ -31,18 +31,18 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
   .header {
   max-width: 320px;
   margin-top: 28px;
   }
   .header__around {
   max-width: 126px;
-    margin-left: 27px;
+  margin-left: 27px;
 }
 
 .header__line {
-  max-width: 320px;
+  max-width: 282px;
   margin-top: 32px;
 }
 }

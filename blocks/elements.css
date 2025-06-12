@@ -42,7 +42,7 @@
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-family: intervariable, sans-serif, "Times New Roman", Times, serif;
+  font-family: "inter", sans-serif, "Times New Roman", Times, serif;
   font-weight: 900;
   font-size: 24px;
   line-height: 100%;
@@ -89,7 +89,8 @@
 }
 
 .card__like:active {
-  background-image: url(../images/Union.png);
+  background-image: url("../images/blackheart.svg");
+  opacity: 100%;
 }
 
 

@@ -33,25 +33,26 @@
           <button class="profile__button" type="submit"
               ><img class="profile__button__add" src="./images/plus.svg"
           /></button>
-          <div class="popup">
-        <form class="popup__form" name="register">
-          <h3 class="popup__title">Editar perfil</h3>
-          <input
-            class="popup__name-input"
-            type="text"
-            name="name"
-            placeholder="Nome"
-          />
-          <input
-            class="popup__job-input"
-            type="text"
-            name="job"
-            placeholder="Sua descrição"
-          />
-          <button type="submit" class="popup__save-button">Salvar</button>
-        </form>
-        <button type="submit" class="popup__close-button">X</button>
-      </div>
+          <div class="popup popup_opened">
+            <button type="submit" class="popup__close-button"></button>
+            <form class="popup__container" name="register">
+              <h3 class="popup__title">Editar perfil</h3>
+              <input
+               class="popup__name-input"
+                type="text"
+                name="name"
+                placeholder="Nome"
+              />
+              <input
+               class="popup__job-input"
+                type="text"
+                name="job"
+                placeholder="Sobre mim"
+              />
+              <button type="submit" class="popup__save-button">Salvar</button>
+              </form>
+              
+          </div>
         </section>
         <ul class="elements">
           <li class="elements__card">

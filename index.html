@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,152 +11,205 @@
     <link rel="favicon" href="../web_project_homeland/favicon.ico" />
   </head>
   <body class="body">
-    <div class="page">
+    <div class="page ">
       <header class="header">
-        <img class="header__around" src="./images/Around.svg" alt="cabeçalho around"/>
-        <img class="header__line" src="./images/Line.jpg" alt="linha do cabeçalho"/>
+        <img
+          class="header__around"
+          src="./images/Around.svg"
+          alt="cabeçalho around"
+        />
+        <img
+          class="header__line"
+          src="./images/Line.jpg"
+          alt="linha do cabeçalho"
+        />
       </header>
       <main class="content">
         <section class="profile">
           <div class="profile__elipse">
-            <img class="profile__elipse-avatar" src="./images/Avatar.jpg" alt="imagem avatar" />
+            <img
+              class="profile__elipse-avatar"
+              src="./images/Avatar.jpg"
+              alt="imagem avatar"
+            />
           </div>
           <div class="profile__info">
             <h1 class="profile__name">Jacques Cousteau</h1>
-            <button class="profile__info-edit" type="submit"
-            ><img
-              class="profile__info-button"
-              src="./images/edit_button.svg"
-              alt="edit button"
-          /></button>
+            <button class="profile__info-edit" type="submit">
+              <img
+                class="profile__info-button"
+                src="./images/edit_button.svg"
+                alt="edit button"
+              />
+            </button>
             <h2 class="profile__job">Explorador</h2>
-          </div>          
-          <button class="profile__card-button" type="submit"
-              ><img class="profile__button-plus" src="./images/plus.svg" alt="plus button"
-          /></button>
+          </div>
+          <button class="profile__card-button" type="submit">
+            <img
+              class="profile__button-plus"
+              src="./images/plus.svg"
+              alt="plus button"
+            />
+          </button>
           <div class="popup">
+            <div class="popup__overlay"></div>
             <button type="submit" class="popup__close-button"></button>
             <form class="popup__container" name="register">
               <h3 class="popup__title">Editar perfil</h3>
               <input
-               class="popup__name-input"
+                class="popup__name-input"
                 type="text"
                 name="name"
                 placeholder="Nome"
               />
               <input
-               class="popup__job-input"
+                class="popup__job-input"
                 type="text"
                 name="job"
                 placeholder="Sobre mim"
               />
               <button type="submit" class="popup__save-button">Salvar</button>
-              </form>
-              
+            </form>
           </div>
         </section>
         <ul class="elements">
-           <li class="elements__card">
-          <img
-            class="elements__card-image"
-            src="./images/vale_de_yosemite.jpg"
-            alt="Vale de Yosemite"
-          />
-          <button class="elements__card-trash" type="submit">
-            <img class="trash" src="./images/trashtop.svg" alt="tampa trash button"/>
-            <img class="trash-bottom" src="./images/trashbottom.svg" alt="corpo trash button"/>
-          </button>
-          <div class="elements__card-title">
-            <h2 class="elements__card-name">
-              Vale de Yosemite
-            </h2>
-            <button class="elements__card-like" type="submit"></button>
-          </div>
-           </li>
-           <li class="elements__card">
+          <li class="elements__card">
             <img
-            class="elements__card-image"
-            src="./images/lago_louise.jpg"
-            alt="Lago Louise"
+              class="elements__card-image"
+              src="./images/vale_de_yosemite.jpg"
+              alt="Vale de Yosemite"
             />
             <button class="elements__card-trash" type="submit">
-            <img class="trash" src="./images/trashtop.svg" alt="tampa trash button"/>
-            <img class="trash-bottom" src="./images/trashbottom.svg" alt="corpo trash button"/>
+              <img
+                class="trash"
+                src="./images/trashtop.svg"
+                alt="tampa trash button"
+              />
+              <img
+                class="trash-bottom"
+                src="./images/trashbottom.svg"
+                alt="corpo trash button"
+              />
             </button>
-             <div class="elements__card-title">
-            <h2 class="elements__card-name">
-              Lago Louise
-            </h2>
-            <button class="elements__card-like" type="submit"></button>
+            <div class="elements__card-title">
+              <h2 class="elements__card-name">Vale de Yosemite</h2>
+              <button class="elements__card-like" type="submit"></button>
             </div>
-           </li>
-           <li class="elements__card">
-          <img
-            class="elements__card-image"
-            src="./images/montanhas_care.jpg"
-            alt="Montanhas Care"
-          />
-          <button class="elements__card-trash" type="submit">
-            <img class="trash" src="./images/trashtop.svg" alt="tampa trash button"/>
-            <img class="trash-bottom" src="./images/trashbottom.svg" alt="corpo trash button"/>
-          </button>
-          <div class="elements__card-title">
-            <h2 class="elements__card-name">
-              Montanhas Care...
-            </h2>
-        <button class="elements__card-like" type="submit"></button>
-          </div>
           </li>
           <li class="elements__card">
-          <img
-            class="elements__card-image"
-            src="./images/latemar.jpg"
-            alt="Latemar"
-          />
-          <button class="elements__card-trash" type="submit">
-            <img class="trash" src="./images/trashtop.svg" alt="tampa trash button"/>
-            <img class="trash-bottom" src="./images/trashbottom.svg" alt="corpo trash button"/>
-          </button>
-           <div class="elements__card-title">
-            <h2 class="elements__card-name">
-              Latemar
-            </h2>
+            <img
+              class="elements__card-image"
+              src="./images/lago_louise.jpg"
+              alt="Lago Louise"
+            />
+            <button class="elements__card-trash" type="submit">
+              <img
+                class="trash"
+                src="./images/trashtop.svg"
+                alt="tampa trash button"
+              />
+              <img
+                class="trash-bottom"
+                src="./images/trashbottom.svg"
+                alt="corpo trash button"
+              />
+            </button>
+            <div class="elements__card-title">
+              <h2 class="elements__card-name">Lago Louise</h2>
               <button class="elements__card-like" type="submit"></button>
-          </div>
-           </li>
-         <li class="elements__card">
-          <img
-            class="elements__card-image"
-            src="./images/Parque_nacional.jpg"
-            alt="Parque Nacional"
-          />
-          <button class="elements__card-trash" type="submit">
-            <img class="trash" src="./images/trashtop.svg" alt="tampa trash button"/>
-            <img class="trash-bottom" src="./images/trashbottom.svg" alt="corpo trash button"/>
-          </button>
-          <div class="elements__card-title">
-            <h2 class="elements__card-name">
-              Parque Nacional...
-            </h2>
+            </div>
+          </li>
+          <li class="elements__card">
+            <img
+              class="elements__card-image"
+              src="./images/montanhas_care.jpg"
+              alt="Montanhas Care"
+            />
+            <button class="elements__card-trash" type="submit">
+              <img
+                class="trash"
+                src="./images/trashtop.svg"
+                alt="tampa trash button"
+              />
+              <img
+                class="trash-bottom"
+                src="./images/trashbottom.svg"
+                alt="corpo trash button"
+              />
+            </button>
+            <div class="elements__card-title">
+              <h2 class="elements__card-name">Montanhas Care...</h2>
               <button class="elements__card-like" type="submit"></button>
-          </div>
-         </li>
-         <li class="elements__card">
-          <img
-            class="elements__card-image"
-            src="./images/lago_di_braies.jpg"
-            alt="Lago di Braies"
-          />
-          <button class="elements__card-trash" type="submit">
-            <img class="trash" src="./images/trashtop.svg" alt="tampa trash button"/>
-            <img class="trash-bottom" src="./images/trashbottom.svg" alt="corpo trash button"/>
-          </button>
-           <div class="elements__card-title">
-            <h2 class="elements__card-name">
-              Lago di Braies
-            </h2>
+            </div>
+          </li>
+          <li class="elements__card">
+            <img
+              class="elements__card-image"
+              src="./images/latemar.jpg"
+              alt="Latemar"
+            />
+            <button class="elements__card-trash" type="submit">
+              <img
+                class="trash"
+                src="./images/trashtop.svg"
+                alt="tampa trash button"
+              />
+              <img
+                class="trash-bottom"
+                src="./images/trashbottom.svg"
+                alt="corpo trash button"
+              />
+            </button>
+            <div class="elements__card-title">
+              <h2 class="elements__card-name">Latemar</h2>
               <button class="elements__card-like" type="submit"></button>
-          </div>
+            </div>
+          </li>
+          <li class="elements__card">
+            <img
+              class="elements__card-image"
+              src="./images/Parque_nacional.jpg"
+              alt="Parque Nacional"
+            />
+            <button class="elements__card-trash" type="submit">
+              <img
+                class="trash"
+                src="./images/trashtop.svg"
+                alt="tampa trash button"
+              />
+              <img
+                class="trash-bottom"
+                src="./images/trashbottom.svg"
+                alt="corpo trash button"
+              />
+            </button>
+            <div class="elements__card-title">
+              <h2 class="elements__card-name">Parque Nacional...</h2>
+              <button class="elements__card-like" type="submit"></button>
+            </div>
+          </li>
+          <li class="elements__card">
+            <img
+              class="elements__card-image"
+              src="./images/lago_di_braies.jpg"
+              alt="Lago di Braies"
+            />
+            <button class="elements__card-trash" type="submit">
+              <img
+                class="trash"
+                src="./images/trashtop.svg"
+                alt="tampa trash button"
+              />
+              <img
+                class="trash-bottom"
+                src="./images/trashbottom.svg"
+                alt="corpo trash button"
+              />
+            </button>
+            <div class="elements__card-title">
+              <h2 class="elements__card-name">Lago di Braies</h2>
+              <button class="elements__card-like" type="submit"></button>
+            </div>
           </li>
         </ul>
       </main>

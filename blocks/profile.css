@@ -53,12 +53,12 @@
   margin-left: 17px;
   box-sizing: border-box;
   background-color: black;
-
 }
 
 .profile__info-edit:hover {
   opacity: 60%;
-  cursor: pointer;}
+  cursor: pointer;
+}
 
 .profile__info_edit-button {
   width: 10px;
@@ -73,7 +73,7 @@
   border-color: #fff;
   width: 150px;
   height: 50px;
-  margin-left: auto ;
+  margin-left: auto;
   justify-self: flex-end;
   box-sizing: border-box;
   background-color: black;
@@ -89,60 +89,57 @@
 }
 
 @media screen and (max-width: 900px) {
-.profile__info {
-  row-gap: 16px;
-  display: grid;
-  max-width: 420px;
-  grid-template-columns: 1.9fr 0.1fr;
-  align-items: center;
-}
- 
+  .profile__info {
+    row-gap: 16px;
+    display: grid;
+    max-width: 420px;
+    grid-template-columns: 1.9fr 0.1fr;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 750px) {
-.profile {
-  flex-direction: column;
-align-items: center;
-justify-content: center;
-margin: auto;
-margin-top: 42px;
-}
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 42px;
+  }
 
-.profile__info {
-  margin: 30px 0 0 0;
-}
+  .profile__info {
+    margin: 30px 0 0 0;
+  }
 
-.profile__name {
- font-family: "inter", sans-serif, "Times New Roman", Times, serif;
-font-weight: 500;
-font-size: 22px;
-line-height: 100%;
-text-align: center;
+  .profile__name {
+    font-family: "inter", sans-serif, "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    text-align: center;
 
-  margin: 0;
-}
+    margin: 0;
+  }
 
-.profile__job {
-  font-family: "inter", sans-serif, "Times New Roman", Times, serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 100%;
-text-align: center;
-justify-self: center;
-
-  margin: 0;
-}
-.profile__info-edit {
-  width: 18px;
-  height: 18px;
-
-}
-.profile__card-button {
-  justify-self: center;
-  margin: 0;
-  margin-top: 36px;
-  width: 282px;
-}
-
-
+  .profile__job {
+    font-family: "inter", sans-serif, "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    justify-self: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 0;
+  }
+  .profile__info-edit {
+    width: 18px;
+    height: 18px;
+  }
+  .profile__card-button {
+    justify-self: center;
+    margin: 0;
+    margin-top: 36px;
+    width: 282px;
+  }
 }

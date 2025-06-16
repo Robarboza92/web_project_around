@@ -26,7 +26,7 @@
   align-items: center;
 }
 
-.profile__info__name {
+.profile__name {
   font-family: "inter", sans-serif, "Times New Roman", Times, serif;
   font-weight: 500;
   font-size: 42px;
@@ -34,7 +34,7 @@
   margin: 0;
 }
 
-.profile__info__profissão {
+.profile__job {
   font-family: "inter", sans-serif, "Times New Roman", Times, serif;
   font-weight: 400;
   font-size: 18px;
@@ -42,7 +42,7 @@
   margin: 0;
 }
 
-.profile__info_edit {
+.profile__info-edit {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,7 +56,7 @@
 
 }
 
-.profile__info_edit:hover {
+.profile__info-edit:hover {
   opacity: 60%;
   cursor: pointer;}
 
@@ -65,7 +65,7 @@
   height: 10px;
 }
 
-.profile__button {
+.profile__card-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,12 +79,12 @@
   background-color: black;
 }
 
-.profile__button:hover {
+.profile__card-button:hover {
   opacity: 60%;
   cursor: pointer;
 }
 
-.profile__button__add {
+.profile__button-plus {
   width: 22px;
 }
 
@@ -112,7 +112,7 @@ margin-top: 42px;
   margin: 30px 0 0 0;
 }
 
-.profile__info__name {
+.profile__name {
  font-family: "inter", sans-serif, "Times New Roman", Times, serif;
 font-weight: 500;
 font-size: 22px;
@@ -122,7 +122,7 @@ text-align: center;
   margin: 0;
 }
 
-.profile__info__profissão {
+.profile__job {
   font-family: "inter", sans-serif, "Times New Roman", Times, serif;
 font-weight: 400;
 font-size: 14px;
@@ -132,12 +132,12 @@ justify-self: center;
 
   margin: 0;
 }
-.profile__info_edit {
+.profile__info-edit {
   width: 18px;
   height: 18px;
 
 }
-.profile__button {
+.profile__card-button {
   justify-self: center;
   margin: 0;
   margin-top: 36px;
